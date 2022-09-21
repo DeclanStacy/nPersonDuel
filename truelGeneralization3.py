@@ -96,6 +96,7 @@ def getProbs():
         probs.append(float(x))
     return probs
 
-main(getProbs())
-input()
+if __name__ == "__main__":
+    main(getProbs())
+    input()
 
